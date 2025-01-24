@@ -1,3 +1,2 @@
-!travel_planner.py
-!requirements.txt
+.streamlit/secrets.toml
 .env
