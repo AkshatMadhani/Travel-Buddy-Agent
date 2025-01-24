@@ -6,6 +6,10 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
+groq_api_key = st.secrets["groq_api_key"]
+exa_api_key=st.secrets["exa_api_key"]
+
+
 # Initialize the travel agent
 travel_recommender_agent = Agent(
     name="Travel recommender",
